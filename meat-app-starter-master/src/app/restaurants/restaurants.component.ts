@@ -14,7 +14,5 @@ export class RestaurantsComponent implements OnInit {
   ngOnInit() {
      this.restaurantsService.restaurants()
       .subscribe(restaurants => this.restaurants = restaurants)
-      //.subscribe(function(restaurants, clients){this.restaurants = restaurants; this.clients = clients;})
   }
-
 }
