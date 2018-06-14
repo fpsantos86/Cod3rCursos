@@ -9,7 +9,8 @@ import {Restaurant} from '../restaurants/restaurant/restaurant.model'
   selector: 'mt-restaurant-detail',
   templateUrl: './restaurant-detail.component.html'
 })
-export class RestaurantDetailComponent implements OnInit {
+export class RestaurantDetailComponent implements OnInit
+{
 
   restaurant: Restaurant
 
