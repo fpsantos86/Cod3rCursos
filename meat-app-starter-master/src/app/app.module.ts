@@ -23,13 +23,11 @@ import { OrderComponent } from './order/order.component';
 import { InputComponent } from './shared/input/input.component';
 import { RadioComponent } from './shared/radio/radio.component';
 import { OrderItemsComponent } from './order/order-items/order-items.component';
-<<<<<<< HEAD
+
 import { OrderService } from './order/order.service';
 import { DeliveryCostsComponent } from './order/delivery-costs/delivery-costs.component';
 import { OrderSummaryComponent } from './order-summary/order-summary.component';
 import { RatingComponent } from './shared/rating/rating.component';
-=======
->>>>>>> parent of e9d0fd7... Seção 6, Aula 66 - Fornecendo os Itens da Compra
 
 @NgModule({
   declarations: [

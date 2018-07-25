@@ -4,13 +4,10 @@ import {FormGroup, FormBuilder} from '@angular/forms'
 import {Router} from '@angular/router'
 
 import {RadioOption} from '../shared/radio/radio-option.model'
-<<<<<<< HEAD
+
 import { OrderService } from './order.service'
 import { CartItem } from '../restaurant-detail/shopping-cart/cart-item.model';
 import { Order, OrderItem } from './order.model';
-
-=======
->>>>>>> parent of e9d0fd7... Seção 6, Aula 66 - Fornecendo os Itens da Compra
 
 @Component({
   selector: 'mt-order',
@@ -25,16 +22,14 @@ export class OrderComponent implements OnInit {
       {label: 'Dinheiro', value: 'MON' },
       {label: 'Cartão de Débito', value: 'DEB' },
       {label: 'Cartão de Refeição', value: 'REF' }
-
   ]
 
-<<<<<<< HEAD
+
   constructor(private orderService: OrderService,
               private router: Router,
               private formBuilder: FormBuilder) { }
-=======
-  constructor() { }
->>>>>>> parent of e9d0fd7... Seção 6, Aula 66 - Fornecendo os Itens da Compra
+
+
 
   ngOnInit() {
     this.orderForm = this.formBuilder.group({
@@ -52,7 +47,6 @@ export class OrderComponent implements OnInit {
     return this.orderService.itemsValue()
   }
 
-<<<<<<< HEAD
   cartItems(): CartItem[] {
     return this.orderService.cartItems()
   }
@@ -81,6 +75,5 @@ export class OrderComponent implements OnInit {
     })
     console.log(order)
   }
-=======
->>>>>>> parent of e9d0fd7... Seção 6, Aula 66 - Fornecendo os Itens da Compra
+
 }
